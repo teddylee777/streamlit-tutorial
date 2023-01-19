@@ -16,6 +16,7 @@ dataframe = pd.DataFrame({
     'first column': [1, 2, 3, 4],
     'second column': [10, 20, 30, 40],
 })
+
 # 다운로드 버튼 연결
 st.download_button(
     label='CSV로 다운로드',
@@ -45,7 +46,9 @@ else:
 # 선택 박스
 mbti = st.selectbox(
     '당신의 MBTI는 무엇입니까?',
-    ('ISTJ', 'ENFP', '선택지 없음'))
+    ('ISTJ', 'ENFP', '선택지 없음'), 
+    index=2
+)
 
 if mbti == 'ISTJ':
     st.write('당신은 :blue[현실주의자] 이시네요')
@@ -92,6 +95,6 @@ number = st.number_input(
     min_value=10, 
     max_value=100, 
     value=30,
-    step=1
+    step=5
 )
 st.write('당신이 입력하신 나이는:  ', number)

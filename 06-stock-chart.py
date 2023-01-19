@@ -6,7 +6,7 @@ import datetime
 # https://github.com/financedata-org/FinanceDataReader
 
 date = st.date_input(
-    "기준 날짜를 선택해 주세요",
+    "조회 시작일을 선택해 주세요",
     datetime.datetime(2022, 1, 1)
 )
 
