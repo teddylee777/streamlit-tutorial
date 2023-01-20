@@ -36,7 +36,7 @@ class CompletionExecutor:
 
 config = configparser.ConfigParser()
 config.sections()
-config.read('./api_key.ini')
+config.read('./your_apikey.ini')
 
 completion_executor = CompletionExecutor(
     host=config['CLOVA']['host'],
