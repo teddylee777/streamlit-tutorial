@@ -45,7 +45,7 @@ completion_executor = CompletionExecutor(
     request_id=config['CLOVA']['request_id']
 )
 
-st.title('MBTI 대백과사전')
+st.title('나만의 챗봇')
 
 preset_input = st.selectbox(
     '사전 문장',
