@@ -9,7 +9,7 @@ pip install streamlit
 ```
 
 - 실습파일: https://github.com/teddylee777/streamlit-tutorial
-- 도큐먼트: https://docs.streamlit.io/tj
+- 도큐먼트: https://docs.streamlit.io/
 
 ## YouTube 튜토리얼 영상
 
